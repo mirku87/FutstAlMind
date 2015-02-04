@@ -1,0 +1,5 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".Login">
+    <item android:id="@+id/action_save" android:title="@string/action_salva"
+        android:showAsAction="ifRoom" android:icon="@android:drawable/ic_menu_save"/>
+</menu>
