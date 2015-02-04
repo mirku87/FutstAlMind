@@ -25,7 +25,7 @@
                 android:layout_height="wrap_content"
                 android:textColor="#372c24"
                 android:text="Nome campionato"
-                android:id="@+id/" />
+                android:id="@+id/tit_nome" />
 
             <EditText android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
