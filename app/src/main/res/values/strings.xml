@@ -47,6 +47,18 @@
     <string name="label_ricordami">Ricordami</string>
     <string name="action_salva">Salva</string>
 
+    // activity_player_detail - label
+    <string name="apd_lbl_name">Nome</string>
+    <string name="apd_lbl_surname">Cognome</string>
+    <string name="apd_lbl_birthdate">Data di nascita</string>
+    <string name="apd_lbl_nationality">Nazionalità</string>
+    <string name="apd_lbl_role">Ruolo</string>
+    <string name="apd_lbl_telephonenumber">Numero di telefono</string>
+    <string name="apd_lbl_email">Email</string>
+    <string name="apd_lbl_jerseynumber">Numero di maglia</string>
+
+    // activity_player_detail - label
+
     <string-array name="spinner_anni">
         <item>Anno</item>
         <item>2014</item>
@@ -169,5 +181,6 @@
     <string name="title_activity_squadra__menu">Squadra_Menu</string>
     <string name="title_activity_giocatori__dettaglio">Giocatori_Dettaglio</string>
     <string name="title_activity_campionato__dettaglio">Campionato_Dettaglio</string>
+    <string name="title_activity_player_detail">Player_Detail</string>
 
 </resources>
