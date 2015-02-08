@@ -56,8 +56,19 @@
     <string name="apd_lbl_telephonenumber">Numero di telefono</string>
     <string name="apd_lbl_email">Email</string>
     <string name="apd_lbl_jerseynumber">Numero di maglia</string>
-
+    <string name="apd_lbl_note">Note</string>
     // activity_player_detail - label
+
+
+    // array Ruoli
+    <string-array name="spinner_role">
+        <item>Portiere</item>
+        <item>Universale</item>
+        <item>Difensore</item>
+        <item>Laterale</item>
+        <item>Pivot</item>
+    </string-array>
+    // array Ruoli
 
     <string-array name="spinner_anni">
         <item>Anno</item>

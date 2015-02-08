@@ -46,6 +46,11 @@
             android:name=".Campionato_Dettaglio"
             android:label="@string/title_activity_campionato__dettaglio" >
         </activity>
+
+        <activity
+            android:name=".Player_Detail"
+            android:label="@string/title_activity_player_detail" >
+        </activity>
     </application>
 
 </manifest>
