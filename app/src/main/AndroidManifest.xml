@@ -26,13 +26,17 @@
             android:windowSoftInputMode="stateHidden" >
         </activity>
         <activity
-            android:name=".MenuPrincipale"
+            android:name=".Campionato_Avversarie"
             android:label="@string/title_activity_menu_principale" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".MenuPrincipale"
+            android:label="@string/title_activity_menu_principale" >
         </activity>
         <activity
             android:name=".Squadra_Menu"
