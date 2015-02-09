@@ -34,7 +34,6 @@
             android:inputType="textPersonName"
             android:ems="10"
             android:id="@+id/editText_name"
-            android:text="@string/apd_lbl_name"
             android:layout_marginTop="5dp"
             android:singleLine="true" />
 
@@ -52,7 +51,6 @@
             android:inputType="textPersonName"
             android:ems="10"
             android:id="@+id/editText_surname"
-            android:text="@string/apd_lbl_surname"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="5dp" />
 
