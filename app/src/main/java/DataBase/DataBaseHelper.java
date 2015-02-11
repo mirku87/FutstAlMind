@@ -80,6 +80,11 @@ public class DataBaseHelper extends SQLiteOpenHelper {
         create +=  Table_player.FIELD_EMAIL + " TEXT)";
         db.execSQL(create);
 
+
+        // Scrittura dati di prova
+
+        writeDatiStandard(db);
+
     }
 
     @Override
@@ -156,5 +161,42 @@ public class DataBaseHelper extends SQLiteOpenHelper {
         return numInsulti;
 
         // AHAHAHAHHAHAHAHAHAHAHAHH
+    }
+
+    public void writeDatiStandard(SQLiteDatabase db){
+
+        // Scrivo squadra standard
+
+        Team team = new Team(1,"Squadra di prova");
+        ContentValues values = new ContentValues();
+        values.put(Table_team.FIELD_ID, team.getId());
+        values.put(Table_team.FIELD_NAME, team.getName());
+        db.insert(Table_team.TABLE_NAME, null, values);
+
+        // Scrivo giocatori standard
+
+        Player player = new Player(1,"Mirko","Vitiello",0,0,0,"3382053299","mail@gmail.com");
+        values.put(Table_player.FIELD_ID, player.getId());
+        values.put(Table_player.FIELD_NAME, player.getName());
+        values.put(Table_player.FIELD_SURNAME, player.getSurname());
+        values.put(Table_player.FIELD_BIRTHDATE, player.getBirthDate());
+        values.put(Table_player.FIELD_IDNATION, player.getIdNation());
+        values.put(Table_player.FIELD_IDROLE, player.getIdRole());
+        values.put(Table_player.FIELD_TELEPHONENUMBER, player.getTelephoneNumber());
+        values.put(Table_player.FIELD_EMAIL, player.getEmail());
+        db.insert(Table_player.TABLE_NAME, null, values);
+
+        values = new ContentValues();
+        player = new Player(2,"Alessandro","D'Atri",0,0,0,"3384332453299","mail1@gmail.com");
+        values.put(Table_player.FIELD_ID, player.getId());
+        values.put(Table_player.FIELD_NAME, player.getName());
+        values.put(Table_player.FIELD_SURNAME, player.getSurname());
+        values.put(Table_player.FIELD_BIRTHDATE, player.getBirthDate());
+        values.put(Table_player.FIELD_IDNATION, player.getIdNation());
+        values.put(Table_player.FIELD_IDROLE, player.getIdRole());
+        values.put(Table_player.FIELD_TELEPHONENUMBER, player.getTelephoneNumber());
+        values.put(Table_player.FIELD_EMAIL, player.getEmail());
+        db.insert(Table_team.TABLE_NAME, null, values);
+
     }
 }
