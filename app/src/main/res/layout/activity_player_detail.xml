@@ -10,7 +10,8 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:padding="10dp"
-        android:weightSum="1">
+        android:weightSum="1"
+        style="@android:style/Theme.DeviceDefault.Light.DarkActionBar">
 
         <ImageView
             android:layout_width="75dp"
@@ -148,7 +149,7 @@
             android:layout_height="wrap_content"
             android:textColor="#372c24"
             android:text="@string/apd_lbl_note"
-            android:id="@+id/textView10"
+            android:id="@+id/textView_note"
             android:layout_marginTop="10dp" />
 
         <EditText
@@ -156,7 +157,7 @@
             android:layout_height="wrap_content"
             android:inputType="textMultiLine"
             android:ems="10"
-            android:id="@+id/editText4" />
+            android:id="@+id/editText_note" />
 
     </LinearLayout>
 </ScrollView>

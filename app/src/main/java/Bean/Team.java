@@ -8,8 +8,8 @@ public class Team {
 
     /* Campi della tabella User
     * */
-    public String TABLE_NAME             = "Team";
-    public String FIELD_ID                = "id";
+    public String TABLE_NAME             = "Team"; // NOME DELLA TABELLA
+    public String FIELD_ID                = "id";  // CAMPI DELLA TABELLA
     public String FIELD_NAME              = "Name";
     public String FIELD_FOUNDATIONFOUNDER = "FoundationFounder";
     public String FIELD_FOUNDATIONDATE    = "FoundationDate";
